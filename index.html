@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InoFisio | Fisioterapia Avanzada</title>
+    <meta name="description"
+        content="Recupera tu movimiento en InoFisio. Clínica moderna de fisioterapia con enfoque integral.">
+
+    <!-- Fuentes Modernas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Iconos Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <!-- Navegación -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon"><img src="./assets/images/logo.svg" alt="Logo"></div>
+                <p>Ino<span>Fisio</span></p>
+            </a>
+
+            <button class="menu-btn" id="mobile-menu-btn">
+                <i data-lucide="menu" width="30" height="30"></i>
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#especialidades">Especialidades</a>
+                <a href="#contacto" class="btn btn-primary" style="margin:0;">Agendar Cita</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text reveal active">
+                    <span
+                        style="color: var(--primary); font-weight: 700; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; display: block; margin-bottom: 10px;">Clínica
+                        de Fisioterapia Premium</span>
+                    <h1>Tu cuerpo en <br><span class="text-gradient">Movimiento.</span></h1>
+                    <p>En InoFisio redefinimos la rehabilitación con tecnología de vanguardia y calidez humana. Vuelve a
+                        hacer lo que amas, sin dolor.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#contacto" class="btn btn-primary">
+                            Agendar Consulta <i data-lucide="arrow-right" width="18"></i>
+                        </a>
+                        <a href="#proceso" class="btn btn-outline">
+                            Ver Proceso
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="./assets/images/foto-ino.svg"
+                        alt="Fisioterapia">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <div class="grid-2">
+                <div class="about-images reveal">
+                    <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                        alt="Instalaciones">
+                    <img src="https://images.unsplash.com/photo-1666214280557-f1b5022eb634?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                        alt="Terapia">
+                </div>
+                <div class="about-content reveal">
+                    <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+                        <p>Sobre Nosotros</p>
+                        <h2>Más que una clínica, tu equipo de apoyo.</h2>
+                    </div>
+                    <p style="color: var(--gray); margin-bottom: 20px;">
+                        InoFisio nace con la visión de romper el molde de la rehabilitación tradicional. No solo
+                        tratamos síntomas; analizamos la biomecánica de tu cuerpo para encontrar la raíz del problema.
+                    </p>
+                    <ul style="display: flex; flex-direction: column; gap: 15px;">
+                        <li style="display: flex; gap: 10px; align-items: center; font-weight: 600;">
+                            <i data-lucide="check-circle" color="var(--primary)" width="20"></i> Enfoque 100%
+                            Personalizado
+                        </li>
+                        <li style="display: flex; gap: 10px; align-items: center; font-weight: 600;">
+                            <i data-lucide="check-circle" color="var(--primary)" width="20"></i> Tecnología + Empatía
+                        </li>
+                        <li style="display: flex; gap: 10px; align-items: center; font-weight: 600;">
+                            <i data-lucide="check-circle" color="var(--primary)" width="20"></i> Instalaciones Modernas
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <p>¿Por qué elegirnos?</p>
+                <h2 style="color: white;">La Diferencia InoFisio</h2>
+            </div>
+            <div class="grid-3">
+                <div class="benefit-card reveal">
+                    <div class="icon-box" style="background: rgba(255,255,255,0.1); color: white;">
+                        <i data-lucide="clock"></i>
+                    </div>
+                    <h3 style="margin-bottom: 10px;">Puntualidad Absoluta</h3>
+                    <p style="color: #cbd5e1; font-size: 0.9rem;">Respetamos tu tiempo. Sin esperas largas ni retrasos.
+                    </p>
+                </div>
+                <div class="benefit-card reveal">
+                    <div class="icon-box" style="background: rgba(255,255,255,0.1); color: white;">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <h3 style="margin-bottom: 10px;">Expertos Certificados</h3>
+                    <p style="color: #cbd5e1; font-size: 0.9rem;">Licenciados en constante actualización profesional.
+                    </p>
+                </div>
+                <div class="benefit-card reveal">
+                    <div class="icon-box" style="background: rgba(255,255,255,0.1); color: white;">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <h3 style="margin-bottom: 10px;">Soporte WhatsApp</h3>
+                    <p style="color: #cbd5e1; font-size: 0.9rem;">Seguimiento directo para resolver tus dudas
+                        post-sesión.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <p>Nuestros Servicios</p>
+                <h2>Soluciones Integrales</h2>
+            </div>
+            <div class="grid-4">
+                <div class="card reveal">
+                    <div class="icon-box"><i data-lucide="activity"></i></div>
+                    <h3 style="margin-bottom: 10px; font-size: 1.2rem;">Terapia Manual</h3>
+                    <p style="font-size: 0.9rem; color: var(--gray);">Manipulación experta para liberar tensión y dolor.
+                    </p>
+                </div>
+                <div class="card reveal">
+                    <div class="icon-box"><i data-lucide="dumbbell"></i></div>
+                    <h3 style="margin-bottom: 10px; font-size: 1.2rem;">Fisio Deportiva</h3>
+                    <p style="font-size: 0.9rem; color: var(--gray);">Recuperación y alto rendimiento para atletas.</p>
+                </div>
+                <div class="card reveal">
+                    <div class="icon-box"><i data-lucide="zap"></i></div>
+                    <h3 style="margin-bottom: 10px; font-size: 1.2rem;">Electroterapia</h3>
+                    <p style="font-size: 0.9rem; color: var(--gray);">Tecnología avanzada para acelerar la curación.</p>
+                </div>
+                <div class="card reveal">
+                    <div class="icon-box"><i data-lucide="user-plus"></i></div>
+                    <h3 style="margin-bottom: 10px; font-size: 1.2rem;">Post-Operatorio</h3>
+                    <p style="font-size: 0.9rem; color: var(--gray);">Rehabilitación segura tras cirugías.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades -->
+    <section id="especialidades" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Especialidades Clínicas</h2>
+            </div>
+            <div class="grid-2">
+                <div class="card reveal" style="display: flex; align-items: center; gap: 20px; padding: 20px;">
+                    <div class="icon-box" style="margin: 0; flex-shrink: 0;"><i data-lucide="bone"></i></div>
+                    <div>
+                        <h3>Traumatología</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Fracturas, esguinces y lesiones articulares.
+                        </p>
+                    </div>
+                </div>
+                <div class="card reveal" style="display: flex; align-items: center; gap: 20px; padding: 20px;">
+                    <div class="icon-box" style="margin: 0; flex-shrink: 0;"><i data-lucide="brain-circuit"></i></div>
+                    <div>
+                        <h3>Neurología</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Rehabilitación ACV y sistema nervioso.</p>
+                    </div>
+                </div>
+                <div class="card reveal" style="display: flex; align-items: center; gap: 20px; padding: 20px;">
+                    <div class="icon-box" style="margin: 0; flex-shrink: 0;"><i data-lucide="baby"></i></div>
+                    <div>
+                        <h3>Pediatría</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Desarrollo motor y cuidado infantil.</p>
+                    </div>
+                </div>
+                <div class="card reveal" style="display: flex; align-items: center; gap: 20px; padding: 20px;">
+                    <div class="icon-box" style="margin: 0; flex-shrink: 0;"><i data-lucide="armchair"></i></div>
+                    <div>
+                        <h3>Ergonomía</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Corrección postural y dolor de espalda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section id="proceso" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <p>Tu camino a la recuperación</p>
+                <h2>Proceso de Atención</h2>
+            </div>
+            <div class="process-container">
+                <div class="process-line"></div>
+                <div class="grid-4">
+                    <div class="process-step reveal">
+                        <div class="step-number">1</div>
+                        <h3>Consulta</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Evaluación inicial</p>
+                    </div>
+                    <div class="process-step reveal">
+                        <div class="step-number">2</div>
+                        <h3>Plan</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Diseño de terapia</p>
+                    </div>
+                    <div class="process-step reveal">
+                        <div class="step-number" style="background: var(--primary); color: white; border-color: white;">
+                            3</div>
+                        <h3>Sesiones</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Tratamiento activo</p>
+                    </div>
+                    <div class="process-step reveal">
+                        <div class="step-number">4</div>
+                        <h3>Alta</h3>
+                        <p style="font-size: 0.9rem; color: var(--gray);">Vida sin dolor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestras Instalaciones</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Consultorio">
+                    <div class="gallery-caption">Consultorios Privados</div>
+                </div>
+                <div class="gallery-col">
+                    <div class="gallery-item reveal">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Gimnasio">
+                    </div>
+                    <div class="gallery-item reveal">
+                        <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Recepción">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section bg-light">
+        <div class="container" style="max-width: 800px;">
+            <div class="section-header">
+                <h2>Preguntas Frecuentes</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-btn">
+                        ¿Necesito orden médica?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-content">No es obligatoria para la primera consulta de evaluación.</div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-btn">
+                        ¿Cuánto dura la sesión?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-content">Aproximadamente 50 a 60 minutos.</div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-btn">
+                        ¿Aceptan seguros?
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq-content">Trabajamos vía reintegro. Te damos factura oficial.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info reveal">
+                    <h2 style="margin-bottom: 20px;">Agenda tu Cita</h2>
+                    <p style="color: var(--gray); margin-bottom: 40px;">Déjanos tus datos y te contactaremos a la
+                        brevedad.</p>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i data-lucide="phone"></i></div>
+                        <div>
+                            <strong>WhatsApp / Teléfono</strong>
+                            <p>+55 99 1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                        <div>
+                            <strong>Dirección</strong>
+                            <p>Av. Salud 123, Piso 2, Ciudad</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i data-lucide="mail"></i></div>
+                        <div>
+                            <strong>Email</strong>
+                            <p>turnos@inofisio.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-box reveal">
+                    <form onsubmit="event.preventDefault(); alert('Mensaje enviado');">
+                        <div class="grid-2" style="margin-bottom: 20px; gap: 20px;">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control" required placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label>Teléfono</label>
+                                <input type="tel" class="form-control" required placeholder="+00 0000 0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Motivo</label>
+                            <select class="form-control">
+                                <option>Evaluación</option>
+                                <option>Dolor Espalda</option>
+                                <option>Lesión Deportiva</option>
+                                <option>Post-Operatorio</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Dolor o molestia</label>
+                            <textarea rows="3" class="form-control"
+                                placeholder="Contanos tu molestia y qué fecha te queda mejor para la cita."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Fecha Preferencia</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Consulta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div style="text-align: left;">
+                    <a href="#" class="logo" style="color: white; margin-bottom: 15px;">
+                        <div class="logo-icondos"><img src="./assets/images/logo.svg" alt=""></div>
+                        <p>InoFisio</p>
+                    </a>
+                    <p style="color: #94a3b8; font-size: 0.9rem;">Salud en movimiento, vida en equilibrio.</p>
+                </div>
+                <div>
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i data-lucide="instagram" width="18"></i></a>
+                        <a href="#" class="social-btn"><i data-lucide="facebook" width="18"></i></a>
+                        <a href="#" class="social-btn"><i data-lucide="twitter" width="18"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <ul style="margin-top: 15px; font-size: 0.9rem; color: #94a3b8;">
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="text-align: center; color: #64748b; font-size: 0.8rem;">
+                &copy; 2023 InoFisio Clínica. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
